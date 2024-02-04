@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +16,7 @@
             <h1>TODo List</h1>
             <div class="search">
                 <div class="sea"><input type="text" id="sea"></div>
-                <div class="but"><button>Add</button></div>
+                <div class="but"><button class="batt">Add</button></div>
             </div>
             <div class="todo">
                 <h2>ToDo List</h2>
@@ -25,7 +26,12 @@
                         <div>Status</div>
                         <div>close</div>
                     </div>
-                    <div class="task"></div>
+                    <div class="task">
+                        <div class="item">Read Book </div>
+                        <div class="item"> Pending</div>
+                        <div class="item"><i class="fa fa-window-close" aria-hidden="true"></i></div>
+                    </div>
+                  
                     <div class="task"></div>
                     <div class="task"></div>
                     <div class="task"></div>
@@ -36,6 +42,6 @@
         </div>
 
     </div>
-    
+    <script src="app.js"></script>
 </body>
 </html>

@@ -105,7 +105,11 @@
 }
 .main .task{
     width: 98%;
+    padding-right: .5rem;
     height: 20%;
     border: 1px solid black;
     background-color:#ffffff;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
 }
